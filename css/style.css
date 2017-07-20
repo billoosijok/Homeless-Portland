@@ -278,6 +278,10 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
         font-size: 12px;
     }
 
+    .main .fact.card {
+      align-self: center;
+    }
+
     .stories h3 {
         font-size: 18px;
     }
