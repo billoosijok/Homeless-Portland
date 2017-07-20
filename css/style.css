@@ -274,12 +274,17 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
         font-size: 25px;
     }
 
+    .container {
+      display: block;
+    }
+    .card {
+      display: block;
+      float: none;
+      height: auto;
+      width: auto;
+    }
     .card p {
         font-size: 12px;
-    }
-
-    .main .fact.card {
-      align-self: center;
     }
 
     .stories h3 {
@@ -312,7 +317,7 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
     }
 
     .card.org {
-        height: auto;
+      width: auto;
     }
 }
 
