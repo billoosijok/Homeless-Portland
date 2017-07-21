@@ -19,7 +19,7 @@ body {
     z-index: -3;
     overflow: hidden;
     animation-name: enter;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
 }
 #bg:after {
     content: '';
@@ -55,6 +55,7 @@ h2 {
 }
 h3 {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     font-size: 35px;
     font-weight: 600;
@@ -158,13 +159,13 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
     background-color: rgba(0,0,0,0.7);
     position: relative;
     animation-name: enter;
-    animation-duration: 0.65s;
+    animation-duration: 1.3s;
     animation-timing-function: cubic-bezier(.68,.35,.36,.99);
 }
 
-.card:nth-child(1) {animation-duration: 0.3s;}
-.card:nth-child(2) {animation-duration: 0.45s;}
-.card:nth-child(3) {animation-duration: 0.6s;}
+.card:nth-child(1) {animation-duration: 0.8s;}
+.card:nth-child(2) {animation-duration: 1s;}
+.card:nth-child(3) {animation-duration: 1.2s;}
 
 
 .fact.card p {
@@ -210,8 +211,9 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
 .story img {
     float: left;
     vertical-align: bottom;
-    margin: 8px 10px 5px 5px;
+    margin: 8px 15px 5px 5px;
 }
+
 
 .get_involved h3 {
     font-size: 25px;
@@ -323,12 +325,12 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover {
 
 @keyframes enter {
     from {
-        transform: translateY(500px);
+        transform: translateY(100vh);
         opacity: 0;
         color: transparent;
     }
     to {
-        transform: translateY(0);
+        transform: translateY(0vh);
         opacity: 1;
         color: white;
     }
